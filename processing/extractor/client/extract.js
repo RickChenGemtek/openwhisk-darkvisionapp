@@ -39,7 +39,7 @@ const extractOptions = {
 
 function getFps(durationInSeconds) {
   // this gives around 15 images per video
-  return `1/${Math.ceil(durationInSeconds / 15)}`;
+  return `1/${Math.ceil(durationInSeconds / 30)}`;
 
   // for a more complete analysis,
   // use this code that will extract up to 100 images
